@@ -1,0 +1,33 @@
+{
+  "packages": [
+    {
+      "name": "SAM15x15",
+      "maintainer": "avdweb.nl",
+      "websiteURL": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html",
+      "email": "a@maxun.cc",
+      "help": {
+        "online": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html"
+      },
+      "platforms": [
+        {
+          "name": "avdweb SAM 15x15",
+          "architecture": "sam",
+          "version": "1.12.16",
+          "category": "Contributed",
+          "help": {
+            "online": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html"
+          },
+          "url": "http://www.avdweb.nl/Article_files/Arduino/SAM15x15.tar",
+          "archiveFileName": "SAM15x15.tar",
+          "checksum": "SHA-256:4188081b243b4988da1f271bd2b8370fe5805f2ec855976527875a8ac262142c",
+          "size": "3228160",
+          "boards": [
+            {"name": "SAM 15x15"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
