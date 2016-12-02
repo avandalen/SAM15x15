@@ -5,9 +5,7 @@
       "maintainer": "avdweb.nl",
       "websiteURL": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html",
       "email": "a@maxun.cc",
-      "help": {
-        "online": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html"
-      },
+      "help": {"online": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html"},
       "platforms": [
         {
           "name": "avdweb SAM 15x15",
