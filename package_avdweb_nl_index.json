@@ -15,7 +15,7 @@
           "help": {
             "online": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html"
           },
-          "url": "http://www.avdweb.nl/Article_files/SAM15x15.tar",
+          "url": "https://raw.githubusercontent.com/avandalen/SAM15x15/master/SAM15x15.tar.bz2",
           "archiveFileName": "SAM15x15.tar",
           "checksum": "SHA-256:4188081b243b4988da1f271bd2b8370fe5805f2ec855976527875a8ac262142c",
           "size": "3228160",
