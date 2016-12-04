@@ -8,7 +8,7 @@
       "help": {"online": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html"},
       "platforms": [
         {
-          "name": "avdweb SAM 15x15",
+          "name": "SAM 15x15",
           "architecture": "sam",
           "version": "1.12.16",
           "category": "Contributed",
