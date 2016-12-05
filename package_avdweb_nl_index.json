@@ -8,8 +8,8 @@
       "help": {"online": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html"},
       "platforms": [
         {
-          "name": "SAM 15x15",
-          "architecture": "sam",
+          "name": "SAM15x15",
+          "architecture": "samd",
           "version": "1.12.16",
           "category": "Contributed",
           "help": {
@@ -17,10 +17,10 @@
           },
           "url": "https://raw.githubusercontent.com/avandalen/SAM15x15/master/SAM15x15.tar.bz2",
           "archiveFileName": "SAM15x15.tar.bz2",
-          "checksum": "SHA-256:976b6dc6d89f9c0f30fb0cbd2734055c680078dd0e57a09bb1640821784d116a",
-          "size": "856649",
+          "checksum": "SHA-7da07301fe3c22905e9f7ea5676a2b42f28f34c43256bf199ca03ae46f386db5",
+          "size": "855946",
           "boards": [
-            {"name": "SAM 15x15"}
+            {"name": "SAM15x15"}
           ],
           "toolsDependencies": []
         }
