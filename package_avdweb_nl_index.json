@@ -17,7 +17,7 @@
           },
           "url": "https://raw.githubusercontent.com/avandalen/SAM15x15/master/SAM15x15.tar.bz2",
           "archiveFileName": "SAM15x15.tar.bz2",
-"SHA-256:daa542fed156f1036881d8987111552e4678b5abde3020a0d4ffa4e206236927",
+"checksum": "SHA-256:daa542fed156f1036881d8987111552e4678b5abde3020a0d4ffa4e206236927",
           "size": "856810",
           "boards": [
             {"name": "SAM15x15"}
