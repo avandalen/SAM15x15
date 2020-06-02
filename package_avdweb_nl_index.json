@@ -1,14 +1,16 @@
 {
   "packages": [
     {
-      "name": "SAM15x15",
+      "name": "avdweb.nl boards",
       "maintainer": "avdweb.nl",
       "websiteURL": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html",
       "email": "a@maxun.cc",
-      "help": {"online": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html"},
+      "help": {
+        "online": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html"
+      },
       "platforms": [
         {
-          "name": "SAM15x15",
+          "name": "avdweb.nl SAM15X15 SAMD Boards",
           "architecture": "samd",
           "version": "25.12.17",
           "category": "Contributed",
@@ -17,15 +19,64 @@
           },
           "url": "https://raw.githubusercontent.com/avandalen/SAM15x15/master/SAM15x15.tar.bz2",
           "archiveFileName": "SAM15x15.tar.bz2",
-"checksum": "SHA-256:daa542fed156f1036881d8987111552e4678b5abde3020a0d4ffa4e206236927",
+          "checksum": "SHA-256:daa542fed156f1036881d8987111552e4678b5abde3020a0d4ffa4e206236927",
           "size": "856810",
           "boards": [
-            {"name": "SAM15x15"}
+            {
+              "name": "SAM15x15"
+            }
           ],
           "toolsDependencies": []
+        },
+        {
+          "name": "avdweb.nl SAM15X15 SAMD Boards",
+          "architecture": "samd",
+          "version": "26-Core-v1.8.6",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/avandalen/SAM15x15/master/avdweb_nl_SAM15X15_SAMD_Boards_26-Core-v1.8.6.tar.bz2",
+          "archiveFileName": "avdweb_nl_SAM15X15_SAMD_Boards_26-Core-v1.8.6.tar.bz2",
+          "checksum": "SHA-256:283cc85c13c8b7cede87d94522d4365c8b13f4f57dd5c82e6fba1e9e56f94249",
+          "size": "2953209",
+          "boards": [
+            {
+              "name": "SAMD21"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
         }
       ],
-      "tools":[]
+      "tools": []
     }
   ]
 }
