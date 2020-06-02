@@ -1,0 +1,63 @@
+{
+  "packages": [
+    {
+      "name": "avdweb.nl boards",
+      "maintainer": "avdweb.nl",
+      "websiteURL": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html",
+      "email": "a@maxun.cc",
+      "help": {
+        "online": "http://www.avdweb.nl/arduino/samd21/sam-15x15.html"
+      },
+      "platforms": [
+        {
+          "name": "avdweb.nl SAM15X15 SAMD Boards",
+          "architecture": "samd",
+          "version": "%%VERSION%%",
+          "category": "Contributed",
+          "url": "%%REPOURL%%/raw/%%BRANCHNAME%%/%%FILENAME%%",
+          "archiveFileName": "%%FILENAME%%",
+          "checksum": "SHA-256:%%CHECKSUM%%",
+          "size": "%%SIZE%%",
+          "boards": [
+            {
+              "name": "SAMD21"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}

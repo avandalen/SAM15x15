@@ -1,0 +1,54 @@
+# Copyright (c) 2014-2017 Arduino LLC.  All right reserved.
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+menu.crystalsel=Crystal Selection
+
+# SAM 15x15 (only native USB port)
+# --------------------------------------
+sam15x15.name=SAMD21
+sam15x15.vid.0=0x2341
+sam15x15.pid.0=0x804d
+sam15x15.vid.1=0x2341
+sam15x15.pid.1=0x004d
+sam15x15.vid.2=0x2341
+sam15x15.pid.2=0x824d
+sam15x15.vid.3=0x2341
+sam15x15.pid.3=0x024d
+
+sam15x15.upload.tool=bossac
+sam15x15.upload.protocol=sam-ba
+sam15x15.upload.maximum_size=262144
+sam15x15.upload.use_1200bps_touch=true
+sam15x15.upload.wait_for_upload_port=true
+sam15x15.upload.native_usb=true
+sam15x15.build.mcu=cortex-m0plus
+sam15x15.build.f_cpu=48000000L
+sam15x15.build.usb_product="Arduino Zero"
+sam15x15.build.usb_manufacturer="Arduino LLC"
+sam15x15.build.board=SAMD_ZERO
+sam15x15.build.core=arduino
+sam15x15.menu.crystalsel.withcrystal=With 32KHz Clock Crystal
+sam15x15.menu.crystalsel.withoutcrystal=Without Crystal
+sam15x15.menu.crystalsel.withoutcrystal.build.extra_flags=-DCRYSTALLESS -D__SAMD21G18A__ {build.usb_flags}
+sam15x15.menu.crystalsel.withcrystal.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+sam15x15.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+sam15x15.build.openocdscript=openocd_scripts/arduino_zero.cfg
+sam15x15.build.variant=sam15x15_d21
+sam15x15.build.variant_system_lib=
+sam15x15.build.vid=0x2341
+sam15x15.build.pid=0x804d
+sam15x15.bootloader.tool=openocd
+sam15x15.bootloader.file=zero/samd21_sam_ba.bin
