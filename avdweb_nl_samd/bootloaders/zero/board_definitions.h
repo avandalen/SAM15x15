@@ -19,6 +19,8 @@
 
 #if defined(BOARD_ID_arduino_zero)
   #include "board_definitions_arduino_zero.h"
+#elif defined(BOARD_ID_arduino_zero_crystalless)
+  #include "board_definitions_arduino_zero_crystalless.h"
 #elif defined(BOARD_ID_arduino_mkr1000)
   #include "board_definitions_arduino_mkr1000.h"
 #elif defined(BOARD_ID_arduino_mkrzero)

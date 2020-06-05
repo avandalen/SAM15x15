@@ -2,6 +2,8 @@
 
 BOARD_ID=arduino_zero NAME=samd21_sam_ba make clean all
 
+BOARD_ID=arduino_zero_crystalless NAME=samd21_sam_ba_crystalless make clean all
+
 BOARD_ID=arduino_mkr1000 NAME=samd21_sam_ba_arduino_mkr1000 make clean all
 mv -v samd21_sam_ba_arduino_mkr1000.* ../mkr1000/
 

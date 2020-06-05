@@ -51,4 +51,5 @@ sam15x15.build.variant_system_lib=
 sam15x15.build.vid=0x2341
 sam15x15.build.pid=0x804d
 sam15x15.bootloader.tool=openocd
-sam15x15.bootloader.file=zero/samd21_sam_ba.bin
+sam15x15.menu.crystalsel.withoutcrystal.bootloader.file=zero/samd21_sam_ba_crystalless.bin
+sam15x15.menu.crystalsel.withcrystal.bootloader.file=zero/samd21_sam_ba.bin
