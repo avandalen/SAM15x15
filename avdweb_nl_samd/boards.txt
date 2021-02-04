@@ -31,6 +31,7 @@ sam15x15.pid.3=0x024d
 sam15x15.upload.tool=bossac
 sam15x15.upload.protocol=sam-ba
 sam15x15.upload.maximum_size=262144
+sam15x15.upload.maximum_data_size=32768
 sam15x15.upload.use_1200bps_touch=true
 sam15x15.upload.wait_for_upload_port=true
 sam15x15.upload.native_usb=true
